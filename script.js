@@ -22,7 +22,7 @@ async function cheackweather(cityname) {
     wethericon.src = "weather icons/rain.png";
   } else if (data.weather[0].main == "Clear") {
     wethericon.src = "weather icons/sun.png";
-  } else if (data.weather[0].main == "Mist") {
+  } else if (data.weather[0].main == "Fog") {
     wethericon.src = "weather icons/fog.png";
   } else if (data.weather[0].main == "Drizzle") {
     wethericon.src = "weather icons/sun-and-cloud-65PMRJT84G.png";
